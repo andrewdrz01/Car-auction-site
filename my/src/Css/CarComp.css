@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: gold;
+}
+
+.main-cars-information {
+    /* list-style: none; */
+
+    list-style-type: none;
+    border: 1px solid gold;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-image: url(../Css/stars.jfif);
+}
+
+.item-car-information-title {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid gold;
+}
+
+.item-car-information-price {
+    list-style: none;
+    font-size: 23px;
+    padding: 5px 0;
+    border-bottom: 1px solid gold;
+}
+
+.item-car-information {
+    list-style: none;
+    padding: 3px 0;
+}

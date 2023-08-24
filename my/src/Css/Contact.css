@@ -1,0 +1,1316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: none;
+}
+
+.main-title-item {
+    height: 400px;
+    width: 1340px;
+    background-image: url(../Css/prosiak.webp);
+    background-position-x: 0px;
+    background-position-y: -250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid gold;
+}
+
+.title-item-cont {
+    font-size: 40px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    width: 1200px;
+    text-align: center;
+    color: gold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+.main-txt {
+    height: 400px;
+    width: 1340px;
+    background-color: black;
+    color: gold;
+}
+
+.main-list {
+    width: 500px;
+    height: 280px;
+    text-align: center;
+    float: right;
+    padding-top: 20px;
+    border: 1px solid gold;
+    position: relative;
+    right: 80px;
+    top: 60px;
+    background-image: url(../Css/ford.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-item {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container-form {
+    position: relative;
+    top: 40px;
+    width: 800px;
+    height: 350px;
+}
+
+.tittle-form {
+    font-size: 35px;
+    margin-left: 15vw;
+    padding: 5vh 0;
+}
+
+.name {
+    position: relative;
+    left: 5vw;
+    padding: 20px 0;
+}
+
+.email {
+    position: relative;
+    left: 4.5vw;
+    padding: 20px 0;
+}
+
+.message {
+    position: relative;
+    left: 25vw;
+    top: -19vh;
+    padding: 20px 0;
+}
+
+.form-label-message {
+    padding-right: 5px;
+    position: relative;
+    top: -100px;
+}
+
+.form-label-email {
+    padding-right: 5px;
+}
+
+.form-label-name {
+    padding-right: 5px;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.btnsubmit {
+    position: relative;
+    left: 35vw;
+    top: -20vh;
+    width: 10vw;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid gold;
+    background-color: black;
+    color: gold;
+}
+
+.btnsubmit:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+input {
+    background-color: lightgray;
+    background-image: url(../Components/wall.jpg);
+    background-size: cover;
+    color: white;
+    border: 1px solid gold;
+}
+
+textarea {
+    border: 1px solid gold;
+    width: 250px;
+    height: 120px;
+    resize: none;
+    outline: none;
+    background-image: url(../Components/wall.jpg);
+    background-size: cover;
+    color: white;
+}
+
+@media(min-width:360px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: -110px;
+        background-position-y: 0px;
+    }
+
+    .title-item-cont {
+        font-size: 25px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 610px;
+    }
+
+    .main-list {
+        width: 330px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 10px;
+        top: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 25px;
+        margin-left: 15vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 20vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 18.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 10vw;
+        top: 0vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -85px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 210px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 41vw;
+        top: -2vh;
+        width: 35vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+
+@media(min-width:400px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: -100px;
+        background-position-y: 0px;
+    }
+
+    .title-item-cont {
+        font-size: 30px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 610px;
+    }
+
+    .main-list {
+        width: 350px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 20px;
+        top: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 30px;
+        margin-left: 12vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 12vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 10.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 5vw;
+        top: 0vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -85px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 270px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 35vw;
+        top: -2vh;
+        width: 35vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 100px;
+    }
+
+}
+
+
+@media(min-width:500px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: -50px;
+        background-position-y: 0px;
+    }
+
+    .title-item-cont {
+        font-size: 35px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 610px;
+    }
+
+    .main-list {
+        width: 400px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 40px;
+        top: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 30px;
+        margin-left: 18vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 14vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 12.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 10.5vw;
+        top: 0vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -85px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 320px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 38vw;
+        top: -2vh;
+        width: 35vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 290px;
+        height: 100px;
+    }
+
+}
+
+@media(min-width:600px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: -10px;
+        background-position-y: 0px;
+    }
+
+    .title-item-cont {
+        font-size: 35px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 610px;
+    }
+
+    .main-list {
+        width: 450px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 70px;
+        top: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 30px;
+        margin-left: 22vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 14vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 12.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 10.5vw;
+        top: 0vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -85px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 350px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 33vw;
+        top: -2vh;
+        width: 35vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 320px;
+        height: 100px;
+    }
+
+}
+
+@media(min-width:700px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+
+    .title-item-cont {
+        font-size: 35px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 610px;
+    }
+
+    .main-list {
+        width: 500px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 100px;
+        top: 20px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 22vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 17vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 16vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 10.5vw;
+        top: 0vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -85px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 400px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 33.5vw;
+        top: -2vh;
+        width: 35vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 400px;
+        height: 100px;
+    }
+
+}
+
+@media(min-width:800px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -20px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 600px;
+    }
+
+    .main-list {
+        width: 550px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 15vw;
+        top: 350px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: -150px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 25vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 4.5vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 3.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 40.5vw;
+        top: -20vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -105px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 62vw;
+        top: -22vh;
+        width: 15vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 120px;
+    }
+
+}
+
+@media(min-width:900px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -20px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 600px;
+    }
+
+    .main-list {
+        width: 650px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 14vw;
+        top: 350px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: -150px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 25vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 9.5vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 8.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 40.5vw;
+        top: -20vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -105px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 62vw;
+        top: -22vh;
+        width: 15vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 350px;
+        height: 120px;
+    }
+
+
+}
+
+@media(min-width:1000px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -20px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 600px;
+    }
+
+    .main-list {
+        width: 750px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 15vw;
+        top: 350px;
+    }
+
+    .list-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container-form {
+        position: relative;
+        top: -150px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 25vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 7.5vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 6.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 40.5vw;
+        top: -20vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -105px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 250px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 61vw;
+        top: -22vh;
+        width: 15vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 400px;
+        height: 150px;
+    }
+
+
+}
+
+@media(min-width:1100px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -180px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .main-list {
+        width: 450px;
+        height: 250px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 30px;
+        top: 80px;
+    }
+
+    .list-item {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 15vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 4vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 3.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 22.5vw;
+        top: -19vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -105px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 150px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 35vw;
+        top: -20vh;
+        width: 10vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 220px;
+        height: 120px;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -250px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 100%;
+    }
+
+    .main-list {
+        width: 500px;
+        height: 280px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 30px;
+        top: 60px;
+    }
+
+    .list-item {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 700px;
+        left: -10px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 15vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 4vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 3.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 25vw;
+        top: -19vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -105px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 37.5vw;
+        top: -20vh;
+        width: 10vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 120px;
+    }
+
+}
+
+@media(min-width:1300px) {
+    .main-title-item {
+        height: 400px;
+        width: 100%;
+        background-image: url(../Css/prosiak.webp);
+        background-position-x: 0px;
+        background-position-y: -250px;
+    }
+
+    .title-item-cont {
+        font-size: 40px;
+        width: 80vw;
+        padding: 10px;
+        position: relative;
+        left: 9.5vw;
+        top: 50px;
+    }
+
+    .main-txt {
+        height: 400px;
+        width: 1340px;
+    }
+
+    .main-list {
+        width: 500px;
+        height: 280px;
+        float: right;
+        padding-top: 20px;
+        position: relative;
+        right: 80px;
+        top: 60px;
+    }
+
+    .list-item {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .container-form {
+        position: relative;
+        top: 40px;
+        width: 800px;
+        height: 350px;
+    }
+
+    .tittle-form {
+        font-size: 35px;
+        margin-left: 15vw;
+        padding: 5vh 0;
+    }
+
+    .name {
+        position: relative;
+        left: 5vw;
+        padding: 20px 0;
+    }
+
+    .email {
+        position: relative;
+        left: 4.5vw;
+        padding: 20px 0;
+    }
+
+    .message {
+        position: relative;
+        left: 25vw;
+        top: -19vh;
+        padding: 20px 0;
+    }
+
+    .form-label-message {
+        padding-right: 5px;
+        position: relative;
+        top: -100px;
+    }
+
+    .form-label-email {
+        padding-right: 5px;
+    }
+
+    .form-label-name {
+        padding-right: 5px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .btnsubmit {
+        position: relative;
+        left: 35vw;
+        top: -20vh;
+        width: 10vw;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 120px;
+    }
+}
